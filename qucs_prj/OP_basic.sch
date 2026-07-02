@@ -1,9 +1,9 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=-23,-84,659,781,1.3569,0,0>
+  <View=-7,-238,647,845,0.888208,1,0>
   <Grid=10,10,1>
-  <DataSet=pg_opamp.dat>
-  <DataDisplay=pg_opamp.dpl>
+  <DataSet=OP_basic.dat>
+  <DataDisplay=OP_basic.dpl>
   <OpenDisplay=0>
   <Script=pg_opamp.m>
   <RunScript=0>
