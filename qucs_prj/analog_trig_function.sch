@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=-16,-8,320,550,1.72401,0,0>
+  <View=-112,-8,417,550,1.09677,0,0>
   <Grid=10,10,1>
   <DataSet=analog_trig_function.dat>
   <DataDisplay=analog_trig_function.dpl>
