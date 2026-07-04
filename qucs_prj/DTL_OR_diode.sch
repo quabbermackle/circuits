@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=23,-30,488,429,1.24731,0,0>
+  <View=23,-88,476,486,2.04415,0,0>
   <Grid=10,10,1>
   <DataSet=DTL_OR_diode.dat>
   <DataDisplay=DTL_OR_diode.dpl>
@@ -14,18 +14,18 @@
   <FrameText3=Revision:>
 </Properties>
 <Symbol>
-  <.ID -20 44 OR_>
+  <.ID -40 44 OR_>
   <.PortSym -30 -20 1 0 A>
   <.PortSym -30 20 2 0 B>
-  <.PortSym 0 -50 3 180 GND>
+  <.PortSym 10 40 3 180 GND>
   <.PortSym 40 0 4 180 OUT>
   <Line -30 -20 20 0 #000080 2 1>
-  <Line 0 -35 0 -15 #000080 2 1>
   <Line -30 20 20 0 #000080 2 1>
   <Line 20 0 20 0 #000080 2 1>
   <EArc -60 -40 80 80 1440 -2880 #00007f 2 1>
-  <Text 0 -50 10 #000000 0 "GND">
   <EArc -30 -40 20 80 1440 -2921 #00007f 2 1>
+  <Text 10 20 10 #000000 0 "GND">
+  <Line 10 40 0 -10 #000080 2 1>
 </Symbol>
 <Components>
   <R R1 1 250 260 15 -26 0 1 "1 kOhm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
