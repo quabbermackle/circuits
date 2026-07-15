@@ -2,8 +2,8 @@
 <Properties>
   <View=13,-159,496,453,1.91718,0,0>
   <Grid=10,10,1>
-  <DataSet=DTL_AND_diode.dat>
-  <DataDisplay=DTL_AND_diode.dpl>
+  <DataSet=Diode_AND.dat>
+  <DataDisplay=Diode_AND.dpl>
   <OpenDisplay=0>
   <Script=DTL_AND_diode.m>
   <RunScript=0>

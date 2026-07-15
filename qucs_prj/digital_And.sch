@@ -14,9 +14,16 @@
   <FrameText3=Revision:>
 </Properties>
 <Symbol>
-  <.PortSym 40 20 1 0 a>
-  <.PortSym 40 60 2 0 b>
-  <.PortSym 40 100 3 0 out>
+  <.ID -20 44 And>
+  <.PortSym -30 -30 1 0 a>
+  <.PortSym -30 30 2 0 b>
+  <.PortSym 30 0 3 180 out>
+  <Line -30 -30 10 0 #000080 2 1>
+  <Line 20 0 10 0 #000080 2 1>
+  <Line -30 30 10 0 #000080 2 1>
+  <Line -20 -40 0 80 #000080 2 1>
+  <Line -20 -40 0 80 #000080 2 1>
+  <EArc -60 -40 80 80 1440 -2880 #00007f 2 1>
 </Symbol>
 <Components>
   <NAND Nand1 1 380 250 -26 27 0 0 "2" 0 "1 V" 0 "1 ns" 0 "10" 0 "old" 0>
