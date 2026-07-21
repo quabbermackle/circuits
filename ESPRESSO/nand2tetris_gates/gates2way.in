@@ -1,0 +1,9 @@
+.i 2        # .i specifies the number of inputs
+.o 9       # .o specifies the number of outputs
+.ilb a b      # .ilb specifies the names of the inputs in order
+.ob Nand Nor And Or Xor DMux_a DMux_b HalfAdder_sum HalfAdder_carry   # .ob specifies the names of the outputs in order
+00 110000000
+01 100111010
+10 100110010
+11 001100101
+.e       # Signifies the end of the file.

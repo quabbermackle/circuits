@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=-12,-71,925,1122,1.21,127,88>
+  <View=143,-48,817,807,1.37389,0,0>
   <Grid=10,10,1>
   <DataSet=digital_Xor.dat>
   <DataDisplay=digital_Xor.dpl>
@@ -14,14 +14,21 @@
   <FrameText3=Revision:>
 </Properties>
 <Symbol>
-  <.PortSym 40 20 1 0 a1>
-  <.PortSym 40 60 2 0 b1>
-  <.PortSym 40 100 3 0 out1>
+  <.ID -20 44 SUB>
+  <.PortSym -30 -20 1 0 a>
+  <.PortSym -30 20 2 0 b>
+  <.PortSym 40 0 3 180 out>
+  <Line -30 -20 20 0 #000080 2 1>
+  <Line -30 20 20 0 #000080 2 1>
+  <Line 20 0 20 0 #000080 2 1>
+  <EArc -60 -40 80 80 1440 -2880 #00007f 2 1>
+  <EArc -30 -40 20 80 1440 -2921 #00007f 2 1>
+  <EArc -40 -40 20 80 1440 -2921 #00007f 2 1>
 </Symbol>
 <Components>
-  <Port a1 1 210 260 -23 12 0 0 "1" 1 "analog" 0>
-  <Port b1 1 210 480 -23 12 0 0 "2" 1 "analog" 0>
-  <Port out1 1 720 370 4 -50 0 2 "3" 1 "analog" 0>
+  <Port a 1 210 260 -23 12 0 0 "1" 1 "analog" 0>
+  <Port b 1 210 480 -23 12 0 0 "2" 1 "analog" 0>
+  <Port out 1 720 370 4 -50 0 2 "3" 1 "analog" 0>
   <Sub Not1 1 320 320 -20 24 0 0 "digital_Not.sch" 0>
   <Sub Not2 1 320 420 -20 24 0 0 "digital_Not.sch" 0>
   <Sub And1 1 490 290 -20 44 0 0 "digital_And.sch" 0>
@@ -53,4 +60,5 @@
 <Diagrams>
 </Diagrams>
 <Paintings>
+  <Text 460 90 12 #000000 0 "a | b | out\n0 | 0 | 0\n0 | 1 | 1\n1 | 0 | 1\n1 | 1 | 0">
 </Paintings>

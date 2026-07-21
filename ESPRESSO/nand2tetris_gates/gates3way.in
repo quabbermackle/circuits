@@ -1,0 +1,13 @@
+.i 3        # .i specifies the number of inputs
+.o 3       # .o specifies the number of outputs
+.ilb a b c      # .ilb specifies the names of the inputs in order
+.ob Mux FullAdder_sum FullAdder_carry   # .ob specifies the names of the outputs in order
+000 000
+001 010
+010 110
+011 101
+100 010
+101 101
+110 001
+111 111
+.e       # Signifies the end of the file.

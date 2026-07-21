@@ -39,4 +39,5 @@
 <Diagrams>
 </Diagrams>
 <Paintings>
+  <Text 390 90 12 #000000 0 "a | out\n0 | 1\n1 | 0">
 </Paintings>

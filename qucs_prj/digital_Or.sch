@@ -44,4 +44,5 @@
 <Diagrams>
 </Diagrams>
 <Paintings>
+  <Text 340 80 12 #000000 0 "a | b | out\n0 | 0 | 0\n0 | 1 | 1\n1 | 0 | 1\n1 | 1 | 1">
 </Paintings>
