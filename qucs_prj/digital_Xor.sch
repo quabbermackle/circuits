@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=143,-48,817,807,1.37389,0,0>
+  <View=106,89,826,827,0.849195,0,53>
   <Grid=10,10,1>
   <DataSet=digital_Xor.dat>
   <DataDisplay=digital_Xor.dpl>
