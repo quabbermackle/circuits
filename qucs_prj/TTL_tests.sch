@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=-23,-3,832,875,0.678363,0,0>
+  <View=16,-91,1443,1716,0.649825,1,0>
   <Grid=10,10,1>
   <DataSet=TTL_tests.dat>
   <DataDisplay=TTL_tests.dpl>
@@ -25,17 +25,17 @@
   <GND * 1 380 570 0 0 0 0>
   <GND * 1 970 380 0 0 0 0>
   <Vrect V2 1 220 90 18 -26 0 1 "5 V" 1 "0.4 s" 1 "0.2 s" 1 "1 us" 0 "1 us" 0 "0.4 s" 0 "0 V" 1>
-  <.TR TR1 1 60 230 0 50 0 0 "lin" 1 "0" 1 "0.8 s" 1 "200" 0 "Trapezoidal" 0 "2" 0 "1 ns" 0 "1e-16" 0 "150" 0 "0.001" 0 "1 pA" 0 "1 uV" 0 "26.85" 0 "1e-3" 0 "1e-6" 0 "1" 0 "CroutLU" 0 "no" 0 "yes" 0 "0" 0>
+  <.TR TR1 1 60 230 0 52 0 0 "lin" 1 "0" 1 "0.8 s" 1 "200" 0 "Trapezoidal" 0 "2" 0 "1 ns" 0 "1e-16" 0 "150" 0 "0.001" 0 "1 pA" 0 "1 uV" 0 "26.85" 0 "1e-3" 0 "1e-6" 0 "1" 0 "CroutLU" 0 "no" 0 "yes" 0 "0" 0>
   <Vrect V3 1 350 90 18 -26 0 1 "5 V" 1 "0.2 s" 1 "0.2 s" 1 "1 us" 0 "1 us" 0 "0.2 s" 0 "0 V" 1>
   <GND * 1 400 810 0 0 0 0>
   <GND * 1 980 600 0 0 0 0>
   <GND * 1 400 1010 0 0 0 0>
   <Sub NOT2 1 980 540 -49 24 0 0 "RTL_NOT.sch" 0>
-  <Sub AND_1 1 370 530 -50 44 0 0 "TTL_AND.sch" 0>
-  <Sub NOT1 1 970 320 -49 24 0 0 "TTL_NOT.sch" 0>
-  <Sub OR1 1 390 740 -40 44 0 0 "TTL_OR.sch" 0>
   <Sub NAND_1 1 370 320 -60 44 0 0 "TTL_NAND.sch" 0>
-  <Sub XOR1 1 390 940 -50 44 0 0 "TTL_XOR.sch" 0>
+  <Sub AND_1 1 370 530 -50 44 0 0 "TTL_AND.sch" 0>
+  <Sub OR1 1 390 740 -40 44 0 0 "TTL_OR.sch" 0>
+  <Sub XOR1 0 390 940 -50 44 0 0 "TTL_XOR.sch" 0>
+  <Sub NOT1 1 970 320 -49 24 0 0 "TTL_NOT.sch" 0>
 </Components>
 <Wires>
   <290 300 330 300 "" 0 0 0 "">

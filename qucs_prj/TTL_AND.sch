@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=53,-57,486,371,1.33949,0,0>
+  <View=52,-111,477,427,2.18396,0,0>
   <Grid=10,10,1>
   <DataSet=TTL_AND.dat>
   <DataDisplay=TTL_AND.dpl>
@@ -37,8 +37,8 @@
   <Port Vcc 1 250 80 -63 -23 0 3 "3" 1 "analog" 0>
   <Port Out 1 380 150 4 -50 0 2 "4" 1 "analog" 0>
   <Port GND 1 250 220 12 4 0 1 "5" 1 "analog" 0>
-  <Sub NAND1 1 240 150 -60 44 0 0 "TTL_NAND.sch" 0>
   <Sub NOT1 1 330 150 -49 24 0 0 "RTL_NOT.sch" 0>
+  <Sub NAND1 1 240 150 -60 44 0 0 "TTL_NAND.sch" 0>
 </Components>
 <Wires>
   <120 110 170 110 "" 0 0 0 "">
