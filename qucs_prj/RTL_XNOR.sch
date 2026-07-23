@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=0,0,580,573,1,0,0>
+  <View=72,-82,467,418,2.35025,0,0>
   <Grid=10,10,1>
   <DataSet=RTL_XNOR.dat>
   <DataDisplay=RTL_XNOR.dpl>
@@ -33,12 +33,12 @@
 </Symbol>
 <Components>
   <Sub XOR1 1 220 160 -50 44 0 0 "RTL_XOR.sch" 0>
-  <Sub NOT1 1 310 160 -49 24 0 0 "RTL_NOT.sch" 0>
   <Port A 1 140 120 -23 12 0 0 "1" 1 "analog" 0>
   <Port B 1 140 200 -23 12 0 0 "3" 1 "analog" 0>
   <Port VCC 1 230 100 -72 -23 0 3 "2" 1 "analog" 0>
   <Port GND 1 230 220 12 4 0 1 "4" 1 "analog" 0>
   <Port OUT 1 370 160 4 -50 0 2 "5" 1 "analog" 0>
+  <Sub NOT1 1 310 160 -49 24 0 0 "RTL_NOT.sch" 0>
 </Components>
 <Wires>
   <260 160 290 160 "" 0 0 0 "">
