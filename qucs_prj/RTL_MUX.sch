@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=33,-91,557,574,1.76718,0,0>
+  <View=33,32,566,573,1.08818,0,0>
   <Grid=10,10,1>
   <DataSet=RTL_MUX.dat>
   <DataDisplay=RTL_MUX.dpl>
@@ -44,11 +44,11 @@
   <Port B 1 100 180 -23 12 0 0 "3" 1 "analog" 0>
   <Port GND 1 250 340 12 4 0 1 "4" 1 "analog" 0>
   <Port OUT 1 460 250 4 -50 0 2 "5" 1 "analog" 0>
-  <Sub NOT2 1 250 160 -49 24 0 0 "RTL_NOT.sch" 0>
   <Sub NOR1 1 340 140 -50 44 0 0 "RTL_NOR.sch" 0>
   <Port A 1 100 290 -23 12 0 0 "6" 1 "analog" 0>
   <Sub OR1 1 420 250 -50 44 0 0 "RTL_OR.sch" 0>
   <Sub AND1 1 190 270 -50 44 0 0 "RTL_AND.sch" 0>
+  <Sub NOT2 1 250 160 -49 24 0 0 "RTL_NOT.sch" 0>
 </Components>
 <Wires>
   <290 160 310 160 "" 0 0 0 "">
