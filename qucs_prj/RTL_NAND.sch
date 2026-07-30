@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=33,-80,496,688,1.2527,0,0>
+  <View=33,-63,496,705,1.2527,0,0>
   <Grid=10,10,1>
   <DataSet=RTL_NAND.dat>
   <DataDisplay=RTL_NAND.dpl>

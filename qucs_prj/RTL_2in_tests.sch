@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=25,9,1430,1320,0.915789,707,239>
+  <View=-1,-84,1418,542,0.915789,702,0>
   <Grid=10,10,1>
   <DataSet=RTL_2in_tests.dat>
   <DataDisplay=RTL_2in_tests.dpl>
@@ -38,12 +38,12 @@
   <Sub XOR1 1 920 510 -50 44 0 0 "RTL_XOR.sch" 0>
   <GND * 1 330 1190 0 0 0 0>
   <GND * 1 940 150 0 0 0 0>
-  <Sub HA1 1 320 1170 -55 14 0 0 "RTL_HalfAdder.sch" 0>
-  <Sub NOT2 1 950 300 -49 24 0 0 "RTL_NOT.sch" 0>
   <Sub BUF1 1 940 90 -49 24 0 0 "RTL_BUF.sch" 0>
   <Sub NOR1 1 350 310 -50 44 0 0 "RTL_NOR.sch" 0>
   <Sub NAND1 1 330 940 -60 44 0 0 "RTL_NAND.sch" 0>
   <Sub AND1 1 360 740 -50 44 0 0 "RTL_AND.sch" 0>
+  <Sub HA1 1 320 1170 -55 14 0 0 "RTL_HalfAdder.sch" 0>
+  <Sub NOT2 1 950 300 -49 24 0 0 "RTL_NOT.sch" 0>
 </Components>
 <Wires>
   <890 300 930 300 "" 0 0 0 "">
@@ -177,7 +177,7 @@
 	<"out_sum.Vt" #0000ff 1 3 0 0 0>
 	<"out_carry.Vt" #ff0000 1 3 0 0 0>
   </Rect>
-  <Rect 1130 180 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 1 0 0 "" "" "">
+  <Rect 1130 180 240 160 3 #c0c0c0 1 00 1 0 0.2 0.8 1 -0.466582 2 6 1 -1 1 1 315 0 225 1 0 0 "" "" "">
 	<"ngspice/tran.v(out_buf)" #0000ff 1 3 0 0 0>
   </Rect>
 </Diagrams>

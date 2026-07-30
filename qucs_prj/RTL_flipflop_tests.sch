@@ -2,10 +2,10 @@
 <Properties>
   <View=51,140,1682,1808,0.828571,771,418>
   <Grid=10,10,1>
-  <DataSet=RTL_memory_tests.dat>
-  <DataDisplay=RTL_memory_tests.dpl>
+  <DataSet=RTL_flipflop_tests.dat>
+  <DataDisplay=RTL_flipflop_tests.dpl>
   <OpenDisplay=0>
-  <Script=RTL_memory_tests.m>
+  <Script=RTL_flipflop_tests.m>
   <RunScript=0>
   <showFrame=0>
   <FrameText0=Title>
