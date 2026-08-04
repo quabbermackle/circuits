@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=51,140,1682,1808,0.828571,771,418>
+  <View=51,140,1289,1778,0.828571,445,394>
   <Grid=10,10,1>
   <DataSet=RTL_flipflop_tests.dat>
   <DataDisplay=RTL_flipflop_tests.dpl>
@@ -45,10 +45,10 @@
   <GND * 1 450 1300 0 0 0 0>
   <Sub PFF1 1 450 1250 -60 44 0 0 "RTL_PFF.sch" 0>
   <Sub PH1 1 450 1050 -40 44 0 0 "RTL_PH_latch.sch" 0>
-  <Sub EFF1 1 1110 1020 -59 44 0 0 "RTL_EFF.sch" 0>
   <Sub EL1 1 1140 580 -40 44 0 0 "RTL_Earle_latch.sch" 0>
-  <Sub DFF1 1 1120 800 -59 44 0 0 "RTL_DFF.sch" 0>
   <Sub DL1 1 460 360 -40 44 0 0 "RTL_D_Latch.sch" 0>
+  <Sub EFF1 1 1110 1020 -59 44 0 0 "RTL_EFF.sch" 0>
+  <Sub DFF1 1 1120 800 -59 44 0 0 "RTL_DFF.sch" 0>
 </Components>
 <Wires>
   <400 330 420 330 "" 0 0 0 "">

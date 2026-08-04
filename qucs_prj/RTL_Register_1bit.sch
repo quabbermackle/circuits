@@ -40,7 +40,6 @@
   <Text 20 30 8 #000000 0 "GND">
 </Symbol>
 <Components>
-  <Sub EFF1 1 310 200 -59 44 0 0 "RTL_EFF.sch" 0>
   <Sub MUX1 1 190 170 -50 44 0 0 "RTL_MUX.sch" 0>
   <Port in 1 100 190 -23 12 0 0 "1" 1 "analog" 0>
   <Port load 1 100 250 -23 12 0 0 "2" 1 "analog" 0>
@@ -48,6 +47,7 @@
   <Port gnd 1 200 330 12 4 0 1 "4" 1 "analog" 0>
   <Port out 1 390 170 4 -50 0 2 "5" 1 "analog" 0>
   <Port clock 1 100 310 -23 12 0 0 "6" 1 "analog" 0>
+  <Sub EFF1 1 310 200 -59 44 0 0 "RTL_EFF.sch" 0>
 </Components>
 <Wires>
   <220 170 270 170 "" 0 0 0 "">
