@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=123,-28,516,360,1.47583,0,0>
+  <View=92,39,508,450,1.39423,0,0>
   <Grid=10,10,1>
   <DataSet=RTL_D_Latch_MUX.dat>
   <DataDisplay=RTL_D_Latch_MUX.dpl>
@@ -32,6 +32,7 @@
   <Text -20 -40 12 #000000 0 "D">
   <Text -20 20 12 #000000 0 "G">
   <Text 10 -40 12 #000000 0 "Q">
+  <Text 19 -17 9 #000000 270 "DL\nMux">
 </Symbol>
 <Components>
   <Port D 1 190 170 -23 12 0 0 "1" 1 "analog" 0>
@@ -52,7 +53,7 @@
   <220 100 320 100 "" 0 0 0 "">
   <220 100 220 130 "" 0 0 0 "">
   <220 130 260 130 "" 0 0 0 "">
-  <340 150 320 150 "" 0 0 0 "">
+  <320 150 340 150 "" 0 0 0 "">
 </Wires>
 <Diagrams>
 </Diagrams>

@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=-2,-1,938,1387,0.940541,304,732>
+  <View=25,-13,933,1086,0.940541,265,0>
   <Grid=10,10,1>
   <DataSet=RTL_3in_tests.dat>
   <DataDisplay=RTL_3in_tests.dpl>
@@ -28,12 +28,12 @@
   <Vrect V5 1 450 70 18 -26 0 1 "5 V" 1 "0.1 s" 1 "0.1 s" 1 "1 us" 0 "1 us" 0 "0.1 s" 0 "0 V" 1>
   <GND * 1 450 370 0 0 0 0>
   <GND * 1 440 600 0 0 0 0>
-  <Sub MUX1 1 420 310 -89 44 0 0 "RTL_MUX.sch" 0>
   <Sub NOR1 1 430 770 -50 44 0 0 "RTL_3NOR.sch" 0>
   <GND * 1 440 830 0 0 0 0>
   <GND * 1 440 1060 0 0 0 0>
   <Sub NAND1 1 430 1000 -50 44 0 0 "RTL_3NAND.sch" 0>
   <Sub FA1 1 400 560 -30 14 0 0 "RTL_FullAdder.sch" 0>
+  <Sub MUX1 1 420 310 -89 44 0 0 "RTL_MUX.sch" 0>
 </Components>
 <Wires>
   <370 290 400 290 "" 0 0 0 "">
