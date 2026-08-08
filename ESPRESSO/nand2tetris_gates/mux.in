@@ -1,0 +1,13 @@
+.i 3        # .i specifies the number of inputs
+.o 1       # .o specifies the number of outputs
+.ilb sel a b      # .ilb specifies the names of the inputs in order
+.ob Mux    # .ob specifies the names of the outputs in order
+00- 0
+00- 0
+01- 1
+01- 1
+1-0 0
+1-1 1
+1-0 0
+1-1 1
+.e       # Signifies the end of the file.
