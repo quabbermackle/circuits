@@ -1,0 +1,9 @@
+.i 2        # .i specifies the number of inputs
+.o 1       # .o specifies the number of outputs
+.ilb a b      # .ilb specifies the names of the inputs in order
+.ob q    # .ob specifies the names of the outputs in order
+00 0
+01 1
+10 1
+11 0
+.e       # Signifies the end of the file.

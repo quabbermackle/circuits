@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=55,23,588,665,1.08818,0,0>
+  <View=-374,-7,1013,731,1.59079,0,0>
   <Grid=10,10,1>
   <DataSet=RTL_MUX.dat>
   <DataDisplay=RTL_MUX.dpl>
@@ -115,4 +115,5 @@
 <Diagrams>
 </Diagrams>
 <Paintings>
+  <Text 520 190 12 #000000 0 "(!SEL*0)+(SEL*1)">
 </Paintings>
