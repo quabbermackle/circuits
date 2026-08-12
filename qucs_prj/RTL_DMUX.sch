@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=23,-162,567,528,1.70221,0,0>
+  <View=33,-1,586,583,1.04882,0,0>
   <Grid=10,10,1>
   <DataSet=RTL_DMUX.dat>
   <DataDisplay=RTL_DMUX.dpl>
@@ -16,31 +16,31 @@
 <Symbol>
   <.ID -60 44 DMUX>
   <.PortSym 0 40 1 90 sel>
-  <.PortSym 10 -40 2 270 VCC>
+  <.PortSym 10 -40 2 270 12v>
   <.PortSym -20 0 3 0 in>
   <.PortSym 10 40 4 90 GND>
   <.PortSym 30 -20 5 180 a>
-  <.PortSym 30 10 6 180 b>
+  <.PortSym 30 20 6 180 b>
   <Line -10 -20 30 -10 #00007f 2 1>
   <Line -10 -20 0 40 #00007f 2 1>
-  <Line 30 10 -10 0 #00007f 2 1>
+  <Line 30 20 -10 0 #00007f 2 1>
   <Line 20 -30 0 60 #00007f 2 1>
   <Line -10 20 30 10 #00007f 2 1>
   <Line 0 20 0 20 #00007f 2 1>
   <Line 10 30 0 10 #00007f 2 1>
   <Line 10 -40 0 10 #00007f 2 1>
   <Text -20 30 9 #000000 0 "sel">
-  <Text 10 -50 9 #000000 0 "V+">
+  <Text 10 -50 9 #000000 0 "12v">
   <Text 10 30 9 #000000 0 "GND">
   <Line -10 0 -10 0 #00007f 2 1>
   <Line 30 -20 -10 0 #00007f 2 1>
-  <Text 9 -14 12 #000000 270 "RTL">
-  <Text 20 -40 9 #000000 0 "sel=0">
-  <Text 20 -10 9 #000000 0 "sel=1">
+  <Text -11 -4 8 #000000 0 "RTL">
+  <Text 0 -20 8 #000000 0 "D0">
+  <Text 0 10 9 #000000 0 "D1">
 </Symbol>
 <Components>
   <Port sel 1 90 80 -23 12 0 0 "1" 1 "analog" 0>
-  <Port VCC 1 230 40 -72 -23 0 3 "2" 1 "analog" 0>
+  <Port 12v 1 230 40 -72 -23 0 3 "2" 1 "analog" 0>
   <Port in 1 90 160 -23 12 0 0 "3" 1 "analog" 0>
   <Port GND 1 230 310 12 4 0 1 "4" 1 "analog" 0>
   <Port a 1 470 120 4 -50 0 2 "5" 1 "analog" 0>

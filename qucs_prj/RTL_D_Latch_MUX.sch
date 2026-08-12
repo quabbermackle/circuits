@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=123,16,589,508,1.24464,0,0>
+  <View=123,-4,589,769,1.24464,0,0>
   <Grid=10,10,1>
   <DataSet=RTL_D_Latch_MUX.dat>
   <DataDisplay=RTL_D_Latch_MUX.dpl>
@@ -32,7 +32,7 @@
   <Text -20 -40 12 #000000 0 "D">
   <Text -20 20 12 #000000 0 "G">
   <Text 10 -40 12 #000000 0 "Q">
-  <Text 19 -17 9 #000000 270 "DL\nMux">
+  <Text 19 -17 9 #000000 270 "D Latch\nMux\nRising">
 </Symbol>
 <Components>
   <Port D 1 190 170 -23 12 0 0 "1" 1 "analog" 0>
@@ -40,8 +40,8 @@
   <Port G 1 190 230 -23 12 0 0 "3" 1 "analog" 0>
   <Port Vcc 1 290 80 -73 -23 0 3 "4" 1 "analog" 0>
   <Port GND 1 290 230 12 4 0 1 "5" 1 "analog" 0>
-  <Sub MUX1 1 280 150 -50 44 0 0 "RTL_MUX.sch" 0>
   <Sub BUF1 1 380 150 -49 24 0 0 "RTL_BUF.sch" 0>
+  <Sub MUX1 1 280 150 -50 44 0 0 "RTL_MUX.sch" 0>
 </Components>
 <Wires>
   <190 170 260 170 "" 0 0 0 "">
@@ -59,11 +59,11 @@
   <380 170 380 200 "" 0 0 0 "">
   <290 200 290 230 "" 0 0 0 "">
   <290 200 380 200 "" 0 0 0 "">
-  <380 130 380 80 "" 0 0 0 "">
+  <380 80 380 130 "" 0 0 0 "">
 </Wires>
 <Diagrams>
 </Diagrams>
 <Paintings>
   <Text 190 110 12 #000000 0 "Q'">
-  <Text 390 70 12 #000000 0 "output needs buffer">
+  <Text 250 20 12 #000000 0 "latch is open when G is high">
 </Paintings>

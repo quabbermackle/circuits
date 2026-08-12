@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=123,-43,656,519,1.08818,0,0>
+  <View=115,49,648,611,1.08818,0,0>
   <Grid=10,10,1>
   <DataSet=RTL_D_Latch.dat>
   <DataDisplay=RTL_D_Latch.dpl>

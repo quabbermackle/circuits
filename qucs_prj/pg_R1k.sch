@@ -1,9 +1,9 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=0,0,580,612,1,0,0>
+  <View=193,-286,426,590,1.09871,0,0>
   <Grid=10,10,1>
-  <DataSet=pg_R.dat>
-  <DataDisplay=pg_R.dpl>
+  <DataSet=pg_R1k.dat>
+  <DataDisplay=pg_R1k.dpl>
   <OpenDisplay=0>
   <Script=pg_R.m>
   <RunScript=0>

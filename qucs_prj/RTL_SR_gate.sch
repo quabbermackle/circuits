@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=3,-76,536,451,1.08818,0,0>
+  <View=3,-448,538,826,0.4803,1,0>
   <Grid=10,10,1>
   <DataSet=RTL_SR_gate.dat>
   <DataDisplay=RTL_SR_gate.dpl>

@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=23,9,637,615,0.946166,1,0>
+  <View=23,-632,738,1073,0.359046,1,0>
   <Grid=10,10,1>
   <DataSet=RTL_Schmitt_emitter.dat>
   <DataDisplay=RTL_Schmitt_emitter.dpl>

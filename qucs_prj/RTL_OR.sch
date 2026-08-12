@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=103,18,506,687,1.43921,0,0>
+  <View=103,-7,506,662,1.43921,0,0>
   <Grid=10,10,1>
   <DataSet=RTL_OR.dat>
   <DataDisplay=RTL_OR.dpl>
@@ -17,7 +17,7 @@
   <.ID -50 44 OR>
   <.PortSym -30 -20 1 0 A>
   <.PortSym -30 20 3 0 B>
-  <.PortSym 10 -40 2 270 3v6>
+  <.PortSym 10 -40 2 270 12v>
   <.PortSym 40 0 5 180 Q>
   <.PortSym 10 40 4 90 GND>
   <Line -30 -20 20 0 #000080 2 1>
@@ -27,14 +27,14 @@
   <EArc -30 -40 20 80 1440 -2921 #00007f 2 1>
   <Line 10 -30 0 -10 #00007f 2 1>
   <Line 10 30 0 10 #00007f 2 1>
-  <Text 10 -40 10 #000000 0 "3v6">
+  <Text 10 -40 10 #000000 0 "12v">
   <Text 10 20 10 #000000 0 "GND">
   <Text 10 -15 12 #000000 270 "RTL">
 </Symbol>
 <Components>
   <Port A 1 170 120 -23 12 0 0 "1" 1 "analog" 0>
   <Port B 1 170 200 -23 12 0 0 "3" 1 "analog" 0>
-  <Port 3v6 1 250 100 -72 -23 0 3 "2" 1 "analog" 0>
+  <Port 12v 1 250 100 -72 -23 0 3 "2" 1 "analog" 0>
   <Port Q 1 400 160 4 -50 0 2 "5" 1 "analog" 0>
   <Port GND 1 250 220 12 4 0 1 "4" 1 "analog" 0>
   <Sub NOR1 1 240 160 -50 44 0 0 "RTL_NOR.sch" 0>
