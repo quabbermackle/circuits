@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=-28,-13,817,975,0.696279,0,0>
+  <View=-17,-239,807,806,1.12379,0,0>
   <Grid=10,10,1>
   <DataSet=marta_XOR.dat>
   <DataDisplay=marta_XOR.dpl>

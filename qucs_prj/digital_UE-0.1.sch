@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=-95,-1,1447,1433,0.610955,0,264>
+  <View=-36,-401,1525,1557,1.02529,89,559>
   <Grid=10,10,1>
   <DataSet=digital_UE-0.1.dat>
   <DataDisplay=digital_UE-0.1.dpl>
@@ -41,7 +41,7 @@
   <NAND Y24 1 1320 710 -26 27 0 0 "2" 0 "1 V" 0 "1 ns" 0 "10" 0 "old" 0>
   <Inv Y25 1 1380 710 -26 27 0 0 "1 V" 0 "1 ns" 0 "10" 0 "old" 0>
   <Buf Y26 1 1440 710 -26 27 0 0 "1 V" 0 "1 ns" 0 "10" 0 "old" 0>
-  <.Digi Digi1 1 1060 70 0 50 0 0 "TimeList" 1 "10 ns" 0 "Verilog" 0>
+  <.Digi Digi1 1 80 190 0 52 0 0 "TimeList" 1 "10 ns" 0 "Verilog" 0>
   <DigiSource CLK 1 730 90 -77 -35 0 3 "5" 1 "low" 0 "1ns; 1ns" 0 "1 V" 0>
   <DigiSource DATA 1 380 90 -77 -35 0 3 "4" 1 "low" 0 "1ns; 1ns" 0 "1 V" 0>
   <DigiSource A0 1 280 90 -76 -35 0 3 "3" 1 "low" 0 "1ns; 1ns" 0 "1 V" 0>
@@ -166,8 +166,8 @@
   <1470 710 1490 710 "" 0 0 0 "">
   <1260 570 1260 680 "" 0 0 0 "">
   <1260 570 1490 570 "" 0 0 0 "">
-  <380 90 380 90 "DATA" 410 40 0 "">
   <730 90 730 90 "CLK" 760 40 0 "">
+  <380 90 380 90 "DATA" 410 40 0 "">
   <240 740 240 740 "A2" 230 750 0 "">
   <260 740 260 740 "A1" 260 750 0 "">
   <280 740 280 740 "A0" 290 750 0 "">
@@ -176,7 +176,17 @@
   <1490 570 1490 570 "RR" 1490 550 0 "">
 </Wires>
 <Diagrams>
+  <Time 230 1011 641 211 3 #c0c0c0 1 00 1 0 1 10 1 0 1 1 1 0 1 11 315 0 225 1 0 0 "" "" "">
+	<"digital_UE-0.1:A0.X" #0000ff 1 3 0 0 0>
+	<"digital_UE-0.1:A1.X" #ff0000 1 3 0 0 0>
+	<"digital_UE-0.1:A2.X" #ff00ff 1 3 0 0 0>
+	<"digital_UE-0.1:DATA.X" #00ff00 1 3 0 0 0>
+	<"digital_UE-0.1:CLK.X" #00ffff 1 3 0 0 0>
+	<"digital_UE-0.1:DBUS.X" #ffff00 1 3 0 0 0>
+	<"digital_UE-0.1:RR.X" #777777 1 3 0 0 0>
+	<"digital_UE-0.1:WRT.X" #000000 1 3 0 0 0>
+  </Time>
 </Diagrams>
 <Paintings>
-  <Text 850 110 12 #000000 0 "000: AND\n001: XNOR\n010: NOP\n011: ORCD\n100: LD\n101: ORCR\n110: OR\n111: STO">
+  <Text 90 800 12 #000000 0 "000: AND\n001: XNOR\n010: NOP\n011: ORCD\n100: LD\n101: ORCR\n110: OR\n111: STO">
 </Paintings>
