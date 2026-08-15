@@ -1,5 +1,5 @@
 """_summary_
-Matthew Gunther, 8/14/26
+thekingofcrimsonesia, 8/14/26
 
 nand2tetris project 6:
 Develop a program that translates symbolic Hack programs into binary Hack instructions
