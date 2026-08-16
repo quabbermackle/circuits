@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=23,-514,668,1023,0.398134,1,0>
+  <View=23,-239,657,565,1.46057,0,0>
   <Grid=10,10,1>
   <DataSet=RTL_XNOR.dat>
   <DataDisplay=RTL_XNOR.dpl>

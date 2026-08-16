@@ -12,18 +12,57 @@
   +9.00000000000e-09
   +1.00000000000e-08
 </indep>
+<dep A0.X dtime>
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+</dep>
+<dep A1.X dtime>
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+</dep>
+<dep A2.X dtime>
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+</dep>
 <dep DBUS.X dtime>
   U
   U
-  1
   U
   1
-  0
   1
   0
-  1
   0
   1
+  1
+  0
+  0
 </dep>
 <dep RR.X dtime>
   U
@@ -34,7 +73,7 @@
   U
   U
   U
-  1
+  U
   U
   1
 </dep>
@@ -45,11 +84,11 @@
   0
   U
   0
-  1
   0
-  1
   0
-  1
+  0
+  0
+  0
 </dep>
 <dep _net0.X dtime>
   U
@@ -57,25 +96,25 @@
   U
   U
   0
-  U
   0
-  U
   0
-  U
+  0
+  0
+  0
   0
 </dep>
 <dep _net1.X dtime>
   U
   1
-  0
   1
-  0
   1
-  0
   1
-  0
   1
-  0
+  1
+  1
+  1
+  1
+  1
 </dep>
 <dep _net10.X dtime>
   U
@@ -95,13 +134,13 @@
   U
   U
   1
-  0
   1
-  0
   1
-  0
   1
-  0
+  1
+  1
+  1
+  1
 </dep>
 <dep _net12.X dtime>
   U
@@ -121,12 +160,12 @@
   U
   U
   U
-  0
+  U
   U
   0
-  U
   0
-  U
+  0
+  1
   0
 </dep>
 <dep _net14.X dtime>
@@ -135,7 +174,7 @@
   U
   U
   U
-  1
+  U
   0
   1
   0
@@ -150,10 +189,10 @@
   U
   U
   U
-  1
+  U
   U
   1
-  U
+  0
 </dep>
 <dep _net16.X dtime>
   U
@@ -162,7 +201,7 @@
   U
   U
   U
-  0
+  U
   U
   0
   U
@@ -211,13 +250,13 @@
   U
   U
   0
-  1
   0
-  1
   0
-  1
   0
-  1
+  0
+  0
+  0
+  0
   0
 </dep>
 <dep _net20.X dtime>
@@ -225,13 +264,13 @@
   1
   U
   1
-  0
   1
-  0
   1
-  0
   1
-  0
+  1
+  1
+  1
+  1
 </dep>
 <dep _net21.X dtime>
   U
@@ -239,25 +278,25 @@
   0
   U
   0
-  1
   0
-  1
   0
-  1
+  0
+  0
+  0
   0
 </dep>
 <dep _net3.X dtime>
   U
   U
+  U
+  U
   0
   0
+  U
+  U
   0
   0
-  0
-  0
-  0
-  0
-  0
+  U
 </dep>
 <dep _net4.X dtime>
   Z
@@ -275,15 +314,15 @@
 <dep _net5.X dtime>
   U
   U
+  U
+  U
   0
   0
+  U
+  1
   0
   0
-  0
-  0
-  0
-  0
-  0
+  U
 </dep>
 <dep _net6.X dtime>
   U
@@ -300,13 +339,13 @@
 </dep>
 <dep _net7.X dtime>
   U
-  U
   0
-  U
   0
-  U
   0
-  U
+  0
+  0
+  0
+  0
   0
   0
   0
@@ -315,12 +354,12 @@
   U
   U
   U
-  1
+  U
   U
   1
-  U
   1
   U
+  0
   1
   1
 </dep>
@@ -329,26 +368,26 @@
   U
   U
   1
-  U
   1
-  U
   1
-  U
   1
-  U
+  1
+  1
+  1
+  1
 </dep>
 <dep DATA.X dtime>
   0
-  1
   0
   1
-  0
   1
   0
-  1
   0
   1
+  1
   0
+  0
+  1
 </dep>
 <dep CLK.X dtime>
   0
@@ -363,82 +402,43 @@
   1
   0
 </dep>
-<dep A2.X dtime>
-  0
+<dep A_regOPCODEnetA2.X dtime>
   1
-  0
   1
-  0
   1
-  0
   1
-  0
   1
+  1
+  1
+  1
+  1
+  1
+  1
+</dep>
+<dep Y_regOPCODEnetA0.X dtime>
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
   0
 </dep>
-<dep A1.X dtime>
+<dep Y_regOPCODEnetA1.X dtime>
   0
-  1
   0
-  1
   0
-  1
   0
-  1
   0
-  1
   0
-</dep>
-<dep A0.X dtime>
   0
-  1
   0
-  1
   0
-  1
   0
-  1
-  0
-  1
-  0
-</dep>
-<dep _srcA0netA0.X dtime>
-  0
-  1
-  0
-  1
-  0
-  1
-  0
-  1
-  0
-  1
-  0
-</dep>
-<dep _srcA1netA1.X dtime>
-  0
-  1
-  0
-  1
-  0
-  1
-  0
-  1
-  0
-  1
-  0
-</dep>
-<dep _srcA2netA2.X dtime>
-  0
-  1
-  0
-  1
-  0
-  1
-  0
-  1
-  0
-  1
   0
 </dep>
 <dep _srcCLKnetCLK.X dtime>
@@ -456,14 +456,14 @@
 </dep>
 <dep _srcDATAnetDATA.X dtime>
   0
-  1
   0
   1
-  0
   1
   0
-  1
   0
   1
+  1
   0
+  0
+  1
 </dep>
