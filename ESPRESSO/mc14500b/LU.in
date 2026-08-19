@@ -1,0 +1,9 @@
+.i 2        # .i specifies the number of inputs
+.o 7       # .o specifies the number of outputs
+.ilb R D      # .ilb specifies the names of the inputs in order
+.ob LD LDC AND ANDC OR ORC XNOR    # .ob specifies the names of the outputs in order
+00 0100011
+01 1000100
+10 0101110
+11 1010111
+.e       # Signifies the end of the file.
