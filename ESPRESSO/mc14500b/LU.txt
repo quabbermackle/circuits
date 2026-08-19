@@ -1,0 +1,18 @@
+# .i specifies the number of inputs
+# .o specifies the number of outputs
+# .ilb specifies the names of the inputs in order
+# .ob specifies the names of the outputs in order
+LD = (D);
+
+LDC = (!R&!D) | (R&!D);
+
+AND = (R&D);
+
+ANDC = (R&!D);
+
+OR = (D) | (R&!D);
+
+ORC = (!R&!D) | (R&D) | (R&!D);
+
+XNOR = (!R&!D) | (R&D);
+
