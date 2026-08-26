@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=112,-105,685,500,1.01222,0,0>
+  <View=101,-35,674,915,1.01222,0,0>
   <Grid=10,10,1>
   <DataSet=RTL_BUF.dat>
   <DataDisplay=RTL_BUF.dpl>
