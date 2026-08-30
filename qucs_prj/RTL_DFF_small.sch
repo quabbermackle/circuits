@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=-17,-48,607,610,0.930979,1,0>
+  <View=-17,-18,607,768,0.930979,1,120>
   <Grid=10,10,1>
   <DataSet=RTL_DFF_small.dat>
   <DataDisplay=RTL_DFF_small.dpl>
@@ -20,7 +20,7 @@
   <.PortSym 40 -30 3 180 Q>
   <.PortSym 40 30 4 180 Qbar>
   <.PortSym 0 -50 5 0 Vcc>
-  <.PortSym 0 50 6 180 Gnd>
+  <.PortSym 0 50 6 180 GND>
   <Line -40 -30 10 0 #000080 2 1>
   <Line 30 -30 10 0 #000080 2 1>
   <Line -40 30 10 0 #000080 2 1>
@@ -46,11 +46,11 @@
   <Port Q 1 500 100 4 -50 0 2 "3" 1 "analog" 0>
   <Port Qbar 1 500 160 4 -50 0 2 "4" 1 "analog" 0>
   <Port Vcc 1 200 10 -72 -23 0 3 "5" 1 "analog" 0>
-  <Port Gnd 1 200 460 12 4 0 1 "6" 1 "analog" 0>
+  <Port GND 1 200 460 12 4 0 1 "6" 1 "analog" 0>
   <Sub SR1 1 430 130 -40 44 0 0 "RTL_SR_latch_NAND.sch" 0>
   <Sub SR2 1 250 70 -40 44 0 0 "RTL_SR_latch_NAND.sch" 0>
-  <Sub NAND2 1 280 390 -60 44 0 0 "RTL_NAND.sch" 0>
   <Sub NAND3 1 190 260 -60 44 0 0 "RTL_3NAND.sch" 0>
+  <Sub NAND2 1 280 390 -60 44 0 0 "RTL_NAND.sch" 0>
 </Components>
 <Wires>
   <50 410 240 410 "" 0 0 0 "">

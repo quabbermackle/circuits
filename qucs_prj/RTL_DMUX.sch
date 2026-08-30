@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=33,-1,586,583,1.04882,0,0>
+  <View=5,-9,558,575,1.04882,0,0>
   <Grid=10,10,1>
   <DataSet=RTL_DMUX.dat>
   <DataDisplay=RTL_DMUX.dpl>
@@ -16,7 +16,7 @@
 <Symbol>
   <.ID -60 44 DMUX>
   <.PortSym 0 40 1 90 sel>
-  <.PortSym 10 -40 2 270 12v>
+  <.PortSym 10 -40 2 270 Vcc>
   <.PortSym -20 0 3 0 in>
   <.PortSym 10 40 4 90 GND>
   <.PortSym 30 -20 5 180 a>
@@ -40,15 +40,15 @@
 </Symbol>
 <Components>
   <Port sel 1 90 80 -23 12 0 0 "1" 1 "analog" 0>
-  <Port 12v 1 230 40 -72 -23 0 3 "2" 1 "analog" 0>
+  <Port Vcc 1 230 40 -72 -23 0 3 "2" 1 "analog" 0>
   <Port in 1 90 160 -23 12 0 0 "3" 1 "analog" 0>
   <Port GND 1 230 310 12 4 0 1 "4" 1 "analog" 0>
   <Port a 1 470 120 4 -50 0 2 "5" 1 "analog" 0>
-  <Sub NOT2 1 230 140 -49 24 0 0 "RTL_NOT.sch" 0>
-  <Sub NOR1 1 400 120 -50 44 0 0 "RTL_NOR.sch" 0>
-  <Sub NOT3 1 150 220 -49 24 0 0 "RTL_NOT.sch" 0>
-  <Sub NOR2 1 320 240 -50 44 0 0 "RTL_NOR.sch" 0>
   <Port b 1 470 240 4 -50 0 2 "6" 1 "analog" 0>
+  <Sub NOT2 1 230 140 -49 24 0 0 "RTL_NOT.sch" 0>
+  <Sub NOT3 1 150 220 -49 24 0 0 "RTL_NOT.sch" 0>
+  <Sub NOR1 1 400 120 -50 44 0 0 "RTL_NOR.sch" 0>
+  <Sub NOR2 1 320 240 -50 44 0 0 "RTL_NOR.sch" 0>
 </Components>
 <Wires>
   <270 140 280 140 "" 0 0 0 "">

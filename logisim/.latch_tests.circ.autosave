@@ -154,7 +154,9 @@
     <comp lib="1" loc="(320,1100)" name="NOR Gate"/>
     <comp lib="1" loc="(320,660)" name="NOR Gate"/>
     <comp lib="1" loc="(320,860)" name="NOR Gate"/>
-    <comp lib="1" loc="(320,940)" name="NOR Gate"/>
+    <comp lib="1" loc="(320,940)" name="NOR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
     <comp lib="1" loc="(380,390)" name="NOR Gate"/>
     <comp lib="1" loc="(380,490)" name="NOR Gate"/>
     <comp lib="1" loc="(430,1020)" name="NOR Gate"/>
@@ -262,7 +264,6 @@
     <wire from="(330,1050)" to="(330,1100)"/>
     <wire from="(330,250)" to="(330,310)"/>
     <wire from="(330,890)" to="(330,940)"/>
-    <wire from="(330,940)" to="(330,990)"/>
     <wire from="(330,940)" to="(360,940)"/>
     <wire from="(340,660)" to="(340,680)"/>
     <wire from="(340,680)" to="(340,750)"/>
