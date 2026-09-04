@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=173,-235,1348,1003,0.494459,1,0>
+  <View=173,-73,1348,1165,0.494459,1,0>
   <Grid=10,10,1>
   <DataSet=RTL_FullAdder.dat>
   <DataDisplay=RTL_FullAdder.dpl>
@@ -137,4 +137,5 @@
 <Diagrams>
 </Diagrams>
 <Paintings>
+  <Text 740 100 12 #000000 0 "9 BJT, 27 R">
 </Paintings>

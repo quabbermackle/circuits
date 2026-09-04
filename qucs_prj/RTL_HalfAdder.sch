@@ -1,6 +1,6 @@
 <Qucs Schematic 26.1.1>
 <Properties>
-  <View=203,-324,726,228,1.10899,0,0>
+  <View=197,-283,720,269,1.10899,0,0>
   <Grid=10,10,1>
   <DataSet=RTL_HalfAdder.dat>
   <DataDisplay=RTL_HalfAdder.dpl>
@@ -82,4 +82,5 @@
 </Diagrams>
 <Paintings>
   <Text 450 -210 12 #000000 0 "carry needs buffer">
+  <Text 410 -240 12 #000000 0 "4 BJT, 9 R">
 </Paintings>
